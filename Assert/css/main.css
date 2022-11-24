@@ -1,0 +1,339 @@
+/*TELA INICIAL*/
+
+.bodycla {
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+    
+}
+
+.entrar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgb(5, 188, 201);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-top: 100px; 
+    border-radius: 10px;
+    font-weight: bold; 
+    border-color: black; 
+    width: 350px;
+    height: 50px;
+}
+
+.entrar a{
+    text-decoration: none;
+    box-shadow: inset 0 -3px 0 0 rgba(187, 221, 187, 0.096);
+    color: black;
+}
+
+/*LOGIN*/
+
+h1{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 40px;
+    color: black;
+}
+
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 25px;
+    padding-left: 12px;
+    color: black;
+    margin-bottom: 20px;
+}
+.senha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 25px;
+    color: black;
+}
+
+.esqueciSenha a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-size: cover;
+    box-shadow: inset 0 -3px 0 0 rgba(187, 221, 187, 0.096);
+    padding-left: 232px;
+    margin-top: 5px;
+}
+
+.entCad{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.entCad button{
+    background: rgb(5, 188, 201);
+}
+
+.botoes{
+    background-size: cover;
+    width: 350px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    background: rgb(5, 188, 201);
+}
+
+.botoes:active{
+    background-color: #12473f;
+    border-color: black;
+    color: white;    
+}
+
+/*CADASTRO*/
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+}
+
+.telcad{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*MENU*/
+
+.opcoes{
+    color: rgb(255,255, 255, 1);
+    text-align: center;
+    align-items: center;
+    text-shadow: 10cm;  
+    text-shadow: 1px 1.1px black;
+}
+
+.menu{
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 3px;
+}
+
+/*refeições*/
+.conteinerref{
+    width: 300px;
+    margin: auto;
+    position: relative;
+}
+.conteinerref img{
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10%;
+}
+.refeicoes{
+    position: absolute;
+    top:30%;
+    left: 15%;
+    bottom: 40%;
+    right: 45px;    
+    transition: translate(-50%,-50%);
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+/*exercicios*/
+
+.conteinerexe{
+    width: 300px;
+    margin: auto;
+    position: relative;
+}
+.conteinerexe img{
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10%;
+}
+.exercicios{
+    position: absolute;
+    top:30%;
+    left: 15%;
+    bottom: 40%;
+    right: 45px;    
+    transition: translate(-50%,-50%);
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+/*estatisticas*/
+
+.conteinerest {
+    width: 300px;
+    margin: auto;
+    position: relative;
+}
+.conteinerest img{
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10%;
+}
+.estatisticas{
+    position: absolute;
+    top:30%;
+    left: 15%;
+    bottom: 40%;
+    right: 45px;    
+    transition: translate(-50%,-50%);
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+/*premiações*/
+
+.conteinerpre{
+    width: 300px;
+    margin: auto;
+    position: relative;
+}
+.conteinerpre img{
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10%;
+}
+.premiacoes{
+    position: absolute;
+    top:30%;
+    left: 15%;
+    bottom: 40%;
+    right: 45px;    
+    transition: translate(-50%,-50%);
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+/*Tela de exercicios*/
+
+.treino{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.treino label{
+    margin-left: 10px;
+}
+
+.treino a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.camera{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 10px;
+
+}
+.camera img{
+    height: 40px;
+    width: 40px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 1px;
+}
+
+.tiutloexec{
+    height:150px;
+}
+
+/*tela estatistica*/
+
+.estast form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+}
+
+/*Tela RRefeições*/
+
+.botaoVoltar{
+    padding-right: 1852px;
+}
+
+.botaoCamera{
+    padding-left: 1810px
+}
+
+span{
+    font-weight: bold;
+}
+h1{
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.botoesRef{
+    width: 15px;
+    height: 15px;
+}
+
+.principal{
+    text-align: center;
+    font-weight: bold;
+}
